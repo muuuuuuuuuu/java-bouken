@@ -51,6 +51,5 @@ public class Main {
 		h.run();
 		c.selfAid();
 		c.pray(5);
-
 	}
 }
