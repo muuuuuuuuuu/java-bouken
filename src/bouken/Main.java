@@ -14,7 +14,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		
+
 //      Heroクラスを呼び出し、インスタンス生成
 		Hero h = new Hero();
 //		Heroクラスのインスタンスフィールドを呼び出す
@@ -25,7 +25,7 @@ public class Main {
 		Hero h2 = new Hero();
 		h2.name = "あさか";
 		h2.hp = 100;
-		
+
 //		Matangoクラスを呼び出し、インスタンス生成
 		Matango m1 = new Matango();
 		m1.hp = 50;
@@ -35,7 +35,7 @@ public class Main {
 		m2.suffix = 'B';
 		Cleric c = new Cleric();
 		c.name = "muuuu";
-		
+
 //		Wizardクラスを呼び出し、インスタンスを生成
 		Wizard w = new Wizard();
 		w.name = "スガはら";
@@ -43,7 +43,7 @@ public class Main {
 		w.heal(h1);
 		w.heal(h2);
 		w.heal(h2);
-		
+
 //		HeroクラスとMatangoのメソッドを呼び出す
 		h.slip();
 		m1.run();
@@ -51,6 +51,6 @@ public class Main {
 		h.run();
 		c.selfAid();
 		c.pray(5);
-		
+
 	}
 }
