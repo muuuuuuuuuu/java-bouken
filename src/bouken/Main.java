@@ -13,7 +13,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		// TODO 自動生成されたメソッド・ スタブ
 
 //      Heroクラスを呼び出し、インスタンス生成
 		Hero h = new Hero();
