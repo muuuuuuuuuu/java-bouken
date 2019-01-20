@@ -21,7 +21,7 @@ public class Main {
 		h.name = "ミナト";
 		Hero h1 = new Hero();
 		h1.name = "カイト";
-		h1.hp = 100;
+		h1.hp = 1000;
 		Hero h2 = new Hero();
 		h2.name = "あさか";
 		h2.hp = 100;
